@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<h2>Mūsdienu straujajā dzīves ritmā efektīva laika plānošana un uzdevumu pārvaldība ir kļuvusi par būtisku ikdienas sastāvdaļu. Darāmo darbu saraksta vietne piedāvā strukturētu pieeju, kas palīdz lietotājiem organizēt savus pienākumus un sasniegt mērķus.</h2>
+<p>Mūsdienu straujajā dzīves ritmā efektīva laika plānošana un uzdevumu pārvaldība ir kļuvusi par būtisku ikdienas sastāvdaļu. Darāmo darbu saraksta vietne piedāvā strukturētu pieeju, kas palīdz lietotājiem organizēt savus pienākumus un sasniegt mērķus.</p>
 
 <h2>Kāpēc darāmo darbu saraksts ir nepieciešams ikvienam?</h2>
 <ul>
