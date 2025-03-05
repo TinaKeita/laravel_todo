@@ -1,16 +1,46 @@
-/* --tea-green: #ccd5aeff;
---beige: #e9edc9ff;
---cornsilk: #fefae0ff;
---papaya-whip: #faedcdff;
---buff: #d4a373ff; */
+color{
+--nyanza: #e9f5dbff;
+--tea-green: #cfe1b9ff;
+--olivine: #b5c99aff;
+--olivine-2: #97a97cff;
+--moss-green: #87986aff;
+--reseda-green: #718355ff;
+} 
 
 body{
-    font-family:'Fira Code', monospace;    
+    font-family: 'Poppins', sans-serif;    
     height: 100vh; 
-    background-color:#fefae0ff;
+    background-color:#e9f5dbff;
+    color:#718355ff;
 }
 h1{
     padding: 10px;
     height: 40px;
-    text-decoration: underline;
+}
+header {
+    width: 100%;
+    margin: 0;
+    box-shadow:  0 2px 6px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 15px;
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+}
+a:link {
+    color: rgb(27, 74, 3);
+}
+a:visited {
+    color: rgb(0, 128, 115);
+}
+a:hover {
+    color: rgb(51, 229, 23);
+}
+a:active {
+    color: rgba(0, 0, 255, 0.611);
 }
