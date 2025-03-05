@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kādēļ nepieciešams</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<x-navigation></x-navigation>
 <p>Mūsdienu straujajā dzīves ritmā efektīva laika plānošana un uzdevumu pārvaldība ir kļuvusi par būtisku ikdienas sastāvdaļu. Darāmo darbu saraksta vietne piedāvā strukturētu pieeju, kas palīdz lietotājiem organizēt savus pienākumus un sasniegt mērķus.</p>
 
 <h2>Kāpēc darāmo darbu saraksts ir nepieciešams ikvienam?</h2>

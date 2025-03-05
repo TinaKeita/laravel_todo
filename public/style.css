@@ -1,17 +1,16 @@
+/* --tea-green: #ccd5aeff;
+--beige: #e9edc9ff;
+--cornsilk: #fefae0ff;
+--papaya-whip: #faedcdff;
+--buff: #d4a373ff; */
+
 body{
-    font-family:'Fira Code', monospace;
-    display: flex;
-    justify-content: center;      
+    font-family:'Fira Code', monospace;    
     height: 100vh; 
+    background-color:#fefae0ff;
 }
 h1{
-    border:solid 3px black;
     padding: 10px;
     height: 40px;
-    
+    text-decoration: underline;
 }
-.container {
-    display: grid;
-    grid-template-rows: 100px auto auto;
-    padding: 10px;
-  }
