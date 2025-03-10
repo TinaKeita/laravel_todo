@@ -4,13 +4,20 @@
     <form method="POST" action="/diaries/{{ $diary->id }}">
     @csrf 
     @method('PUT')
-        
+        <label>
         Labotais nosaukums: <br>
             <input type="text" name="title" value="{{ old("title", $diary->title) }}" /> <br><br>
+        </label>
+
+        <label>
         Labošanas datums: <br>
-            <input name= "date" type="date"> <br><br>
+            <input name= "date" type="date" value="{{ old("date", $diary->date) }}"> <br><br>
+        </label>
+
+        <label>
         Labotais saturs:<br>
         <textarea name="body" rows="4" cols="50">{{ old("body", $diary->body) }}</textarea><br>
+        </label>
         <button>Saglabāt</button>
     
         </form>

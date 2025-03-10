@@ -90,6 +90,14 @@ a:active {
     color: var(--link-active);
 }
 
+.no-visited-link {
+    color: var(--input-text);
+    text-decoration: none; 
+}
+
+.no-visited-link:visited {
+    color: var(--input-text);
+}
 
 input, textarea {
     width: auto;
@@ -120,3 +128,7 @@ button {
 button:hover {
     background-color: var(--secondary);
 }
+.button-container {
+    display: flex; 
+    gap: 10px; 
+  }

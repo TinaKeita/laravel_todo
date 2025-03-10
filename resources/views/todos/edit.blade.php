@@ -7,7 +7,7 @@
         <label>
             Izlabo uzdevumu: <br><br>
             <input type="text" name="content" value="{{ old("content", $todo->content) }}" /> <br><br>
-        <label>
+        </label>
         
         @error("content")
             <p>{{ $message }}</p>

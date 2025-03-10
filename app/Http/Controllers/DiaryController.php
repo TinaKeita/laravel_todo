@@ -37,7 +37,7 @@ class DiaryController extends Controller
     }
 
     public function edit(Diary $diary) {
-        $diaries = Diary::all();
+        
         return view("diaries.edit", compact("diary"));
     }
     
@@ -53,4 +53,10 @@ class DiaryController extends Controller
         $diary->save();
         return redirect("/diary");
     }
+    public function destroy(Diary $diary) {
+        $diary->delete();
+        return redirect("/diary");
+    }
 }
+
+
