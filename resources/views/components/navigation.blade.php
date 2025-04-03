@@ -7,6 +7,17 @@
         <li><a href="/todos/create">Izveido uzdevumu</a></li>
         <li><a href="/diary">Dienasgrāmata</a></li>
         <li><a href="/diary/create">Izveido dienasgrāmatas ierakstu</a></li>
+        <li>|</li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
+        @auth
+        <form method="POST" action="/logout">
+            @csrf
+            @method("DELETE")
+            <li><button>Logout</button></li>
+        </form> 
+
+    @endauth
         
     </ul>
 </nav>

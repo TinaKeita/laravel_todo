@@ -8,6 +8,20 @@
 </head>
 <body>
 <x-navigation></x-navigation>
-    <h1>Sveiks, Laravel!</h1>
+    @auth
+        <h1>Sveiks, {{ Auth::user()->first_name}}</h1>
+        <form method="POST" action="/logout">
+            @csrf
+            @method("DELETE")
+            <button>Logout</button>
+        </form> 
+
+    @endauth
+
+    @guest
+        <h1>Sveiks, viesi!</h1>
+
+    @endguest
+
 </body>
 </html>
