@@ -10,7 +10,7 @@ Route::get('/', function () {return view('welcome');})->middleware("guest");
 Route::get('/why', function () {return view('why');})->middleware("guest");
 
 //todo
-Route::get('/todos', [ToDoController::class, 'index'])->middleware("auth");
+Route::get('/todos', [ToDoController::class, 'index'])->name("home")->middleware("auth");
 Route::get('/todos/create', [ToDoController::class, 'create'])->middleware("auth");
 Route::post('/todos', [ToDoController::class, 'store']);
 Route::get('/todos/{todo}', [ToDoController::class, 'show'])->middleware("auth");

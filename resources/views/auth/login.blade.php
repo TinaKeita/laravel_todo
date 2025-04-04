@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<x-navigation></x-navigation>
     <h1>Login</h1>
     <form  method="POST">
     @csrf

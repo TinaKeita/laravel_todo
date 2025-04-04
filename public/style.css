@@ -53,6 +53,7 @@ header ul {
     list-style: none;
     gap: 25px;
     justify-content: center;
+    align-items:center;
     padding: 0;
 }
 
@@ -60,6 +61,7 @@ header ul li {
     padding: 8px 12px;
     border-radius: 8px;
     transition: background 0.3s ease-in-out;
+    
 }
 
 header ul li:hover {
